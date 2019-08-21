@@ -1,5 +1,5 @@
 {% set name = "py2vega" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 43e1e8d969b94228588ab70170a163a0e4a2ba59cba2fb4c30db3d87fe0e0e2c
+  sha256: fda7848a61a8b81c23865a101ffa0d3e41a4c9982c72e525573319372277daa9
 
 build:
   number: 0
